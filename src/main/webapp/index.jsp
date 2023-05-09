@@ -5,9 +5,12 @@
 <% count += 1; %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <jsp:include page="partials/head.jsp">
+        <jsp:param name="title" value="Start Page"/>
+    </jsp:include>
 </head>
 <body>
+<jsp:include page="partials/navbar.jsp"/>
 <%-- This is a JSP comment, you will NOT see this in the html --%>
 <!-- this is an HTML comment, you WILL see this in the HTML -->
 <h1>Implicit Objects in action:</h1>
@@ -30,11 +33,17 @@
     </c:forEach>
 </ul>
 
+<% request.setAttribute("five", 5); %>
 <c:choose>
-    <c:when test="${true}">
+    <c:when test="${five < 3}">
         <p>Expression 1 is true</p>
     </c:when>
-    <c:when test=""></c:when>
+    <c:when test="${five > 6}">
+        <p>Expression 2 is false</p>
+    </c:when>
+    <c:otherwise>
+        <p>Both expressions are false</p>
+    </c:otherwise>
 </c:choose>
 
 
