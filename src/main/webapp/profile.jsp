@@ -2,14 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "Profile" %></title>
+    <title>Title</title>
 </head>
 <body>
-<c:if test="true">
-    <h1>Variable names should be very descriptive</h1>
-</c:if>
-<c:if test="false">
-    <h1>single letter variable names are good</h1>
-</c:if>
+
+<h1>This is YOUR profile page</h1>
+
 </body>
 </html>
