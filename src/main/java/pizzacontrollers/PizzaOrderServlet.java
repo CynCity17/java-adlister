@@ -1,6 +1,6 @@
-package controllers;
+package pizzacontrollers;
 
-import models.PostPizzaOrder;
+import pizzamodels.PostPizzaOrder;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

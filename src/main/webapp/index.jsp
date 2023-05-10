@@ -10,9 +10,13 @@
     <jsp:include page="partials/navbar.jsp" />
     <div class="container">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1>Welcome to the AdLister!</h1>
 =======
         <h1>Welcome to Pizza Almafi!</h1>
+>>>>>>> servlets-with-jsps
+=======
+        <h1>I'm the Main Page, Hello!</h1>
 >>>>>>> servlets-with-jsps
     </div>
 </body>
