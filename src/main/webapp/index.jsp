@@ -9,7 +9,7 @@
 <body>
     <jsp:include page="partials/navbar.jsp" />
     <div class="container">
-        <h1>Welcome to Pizza Almafi!</h1>
+        <h1>I'm the Main Page, Hello!</h1>
     </div>
 </body>
 </html>

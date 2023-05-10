@@ -1,4 +1,4 @@
-package models;
+package pizzamodels;
 
 public class PostPizzaOrder {
     private String size;
