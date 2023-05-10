@@ -20,6 +20,10 @@ public class FavColorServlet extends HttpServlet {
     @Override
     protected void  doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
         String favcolor = req.getParameter("favcolor");
+        resp.sendRedirect("/viewcolor?favcolor=" + favcolor);
+
+
+
         PostColor submittedColor = new PostColor(favcolor);
         req.setAttribute("favcolor", submittedColor);
         req.getRequestDispatcher("/colorPicker/viewcolor.jsp").forward(req, resp);
