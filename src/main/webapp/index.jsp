@@ -9,7 +9,11 @@
 <body>
     <jsp:include page="partials/navbar.jsp" />
     <div class="container">
+<<<<<<< HEAD
         <h1>Welcome to the AdLister!</h1>
+=======
+        <h1>Welcome to Pizza Almafi!</h1>
+>>>>>>> servlets-with-jsps
     </div>
 </body>
 </html>
