@@ -11,6 +11,7 @@
     <div class="container">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1>Welcome to the AdLister!</h1>
 =======
         <h1>Welcome to Pizza Almafi!</h1>
@@ -18,6 +19,9 @@
 =======
         <h1>I'm the Main Page, Hello!</h1>
 >>>>>>> servlets-with-jsps
+=======
+        <h1>Welcome to the Adlister, ${username}!</h1>
+>>>>>>> sessions-and-cookies-lecture
     </div>
 </body>
 </html>
