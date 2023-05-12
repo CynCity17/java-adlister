@@ -9,8 +9,12 @@
     <jsp:include page="partials/navbar.jsp" />
 
     <div class="container">
+<<<<<<< HEAD
         <h1>Welcome to your profile, ${username}!</h1>
         <p>Your language preference is: ${language}</p>
+=======
+        <h1>Welcom to your profile ${username}!</h1>
+>>>>>>> sessions-and-cookies-exercise
     </div>
 
 </body>
