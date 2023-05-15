@@ -2,6 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+<<<<<<< HEAD:src/main/webapp/ads/index.jsp
 <<<<<<< HEAD
   <jsp:include page="/partials/head.jsp">
     <jsp:param name="title" value="All Ads" />
@@ -24,11 +25,14 @@
 </html>
 =======
     <jsp:include page="/partials/head.jsp">
+=======
+    <jsp:include page="/WEB-INF/partials/head.jsp">
+>>>>>>> jdbc-lecture:src/main/webapp/WEB-INF/ads/index.jsp
         <jsp:param name="title" value="Viewing All The Ads" />
     </jsp:include>
 </head>
 <body>
-<jsp:include page="/partials/navbar.jsp" />
+<jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
 <div class="container">
     <h1>Here Are all the ads!</h1>

@@ -36,6 +36,7 @@
         </dependency>
         <dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.15.0</version>
@@ -44,6 +45,11 @@
             <artifactId>spring-jdbc</artifactId>
             <version>5.3.18</version>
 >>>>>>> sessions-and-cookies-exercise
+=======
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.31</version>
+>>>>>>> jdbc-lecture
         </dependency>
     </dependencies>
 
